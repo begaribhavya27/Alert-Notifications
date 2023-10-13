@@ -1,0 +1,79 @@
+/* Write your CSS here */
+.bg-container {
+  padding: 30px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 50px;
+  font-weight: bold;
+  color: #0f172a;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .heading {
+    font-size: 30px;
+  }
+}
+.success-icon {
+  color: #2dca73;
+  font-size: 25px;
+  margin: 15px;
+}
+.message-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+.success-heading {
+  font-family: 'Roboto';
+  color: #2dca73;
+  font-size: 20px;
+}
+.description {
+  font-family: 'Roboto';
+  color: #64748b;
+  font-size: 15px;
+}
+.close-icon {
+  color: #475569;
+  font-size: 22px;
+  margin: 15px;
+}
+.error-icon {
+  color: #ff0b37;
+  font-size: 25px;
+  margin: 15px;
+}
+.error-heading {
+  font-family: 'Roboto';
+  color: #ff0b37;
+  font-size: 20px;
+}
+.warning-icon {
+  color: #ffb800;
+  font-size: 25px;
+  margin: 15px;
+}
+.warning-heading {
+  font-family: 'Roboto';
+  color: #ffb800;
+  font-size: 20px;
+}
+.info-icon {
+  color: #0f81e0;
+  font-size: 25px;
+  margin: 15px;
+}
+.info-heading {
+  font-family: 'Roboto';
+  color: #0f81e0;
+  font-size: 20px;
+}
